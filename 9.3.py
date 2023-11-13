@@ -8,7 +8,7 @@ code = {'А': '1', 'а': '+', 'Б': 'Y', 'б': '2', 'В': '×', 'в': '@', 'Г':
 
 
 def main():
-    in_file = open('Text.txt', 'r')
+    in_file = open('Text_9.3.txt', 'r')
     text = in_file.read()
     code_text = coded_text(text)
     code_file = open('Code_text.txt', 'w+', encoding='utf-8')
